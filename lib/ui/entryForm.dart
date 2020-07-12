@@ -24,7 +24,7 @@ class EntryFormState extends State<EntryForm> {
     }
 
     return Scaffold(
-       backgroundColor: Colors.tealAccent,
+       backgroundColor: Colors.white,
         appBar: AppBar(
           title: anggota == null ? Text('Tambah') : Text('Edit'),
           centerTitle: true,
@@ -97,7 +97,7 @@ class EntryFormState extends State<EntryForm> {
                   children: <Widget> [
                     Expanded(
                       child: RaisedButton(
-                        color: Colors.green,
+                        color: Colors.blue,
                         textColor: Colors.white,
                         child: Text(
                           'Simpan',

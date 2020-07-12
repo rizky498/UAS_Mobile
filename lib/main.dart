@@ -5,7 +5,7 @@ void main() => runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.red
+        primarySwatch: Colors.purple
       ),
       home:  InputData(),
     )

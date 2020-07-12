@@ -37,34 +37,20 @@ class OutputAPK extends StatelessWidget {
       body: Center(
         child: Column(
           children: <Widget>[
-            Container(
-              padding: EdgeInsets.only(top: 5, left: 100, right: 100),
-              color: Colors.amber[100],
-              child: Container(
-                height: 200,
-                width: 300,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(100),
-                  image: DecorationImage(
-                    image: AssetImage('images/pinjaman.jpg'),
-                  ),
-                ),
-              ),
-            ),
-
+            
             Container(
               padding: EdgeInsets.all(4),
-              color: Colors.blue[500],
+              color: Colors.black,
             ),
 
             Container(
               margin: EdgeInsets.only(top: 15),
               padding: EdgeInsets.only(left: 10, right: 10, bottom: 5),
               decoration: BoxDecoration(
-                  color: Colors.cyan[100],
+                  color: Colors.purple[100],
                   borderRadius: BorderRadius.circular(20),
                   border: Border.all(
-                    color: Colors.yellowAccent,
+                    color: Colors.purple,
                     width: 5,
                   )
                 ),
@@ -81,10 +67,10 @@ class OutputAPK extends StatelessWidget {
                       ),
                       padding: EdgeInsets.only(left: 70, right: 50, top:5, bottom:5 ),
                       decoration: BoxDecoration(
-                        color: Colors.yellowAccent,
+                        color: Colors.purple,
                         borderRadius: BorderRadius.circular(30),
                         border: Border.all(
-                          color: Colors.green,
+                          color: Colors.black,
                           width: 2,
                         )
                       ),
@@ -209,7 +195,7 @@ class OutputAPK extends StatelessWidget {
                     Navigator.pop(context);
                   },
                 padding: EdgeInsets.only(top: 5, bottom: 5),
-                color: Colors.yellowAccent,
+                color: Colors.purple,
                 child: Text(
                   'Kembali',
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),

@@ -12,7 +12,7 @@ class MyProfil extends StatelessWidget {
             centerTitle: true,
             bottom: PreferredSize(
                 child: Container(
-                  color:Colors.yellow,
+                  color:Colors.black,
                   height: 4.0,
                 ),
                 preferredSize: null
@@ -31,7 +31,7 @@ class Konten extends StatelessWidget {
         body: ListView(
           children: <Widget>[
             Container(
-              color: Colors.orange,
+              color: Colors.white,
               child: Stack(
                 children: <Widget>[
                   Padding(
@@ -43,7 +43,7 @@ class Konten extends StatelessWidget {
                         width: 200,
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(100),
-                            image: DecorationImage(image: AssetImage('images/dandy.jpg'),
+                            image: DecorationImage(image: AssetImage('images/risky.jpg'),
                                 fit: BoxFit.cover
                             )
                         ),
@@ -60,7 +60,7 @@ class Konten extends StatelessWidget {
 
                 children: <Widget>[
                   SizedBox(height: 20),
-                  Text('Dandy Shafiq Hidayat',
+                  Text('Rizky Kurniawan',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 22,
@@ -99,7 +99,7 @@ class Konten extends StatelessWidget {
                           height: 100,
                           width: 100,
                           decoration: BoxDecoration(
-                            border: Border.all(color: Colors.blue),
+                            border: Border.all(color: Colors.black),
                             //color: Colors.green,
                             borderRadius: BorderRadius.only(topRight: Radius.circular(20), topLeft: Radius.circular(20)),
 
@@ -110,7 +110,7 @@ class Konten extends StatelessWidget {
                             child: Column(
                               children: <Widget>[
                                 IconButton(
-                            icon: Icon(Icons.my_location, color: Colors.blue, size: 38),
+                            icon: Icon(Icons.my_location, color: Colors.purple, size: 38),
                             onPressed: () {
                               Navigator.push(
                                 context,
@@ -134,7 +134,7 @@ class Konten extends StatelessWidget {
                           height: 100,
                           width: 100,
                           decoration: BoxDecoration(
-                            border: Border.all(color: Colors.blue),
+                            border: Border.all(color: Colors.black),
                             //color: Colors.green,
                             borderRadius: BorderRadius.only(topRight: Radius.circular(20), topLeft: Radius.circular(20)),
                           ),
@@ -143,8 +143,8 @@ class Konten extends StatelessWidget {
                             padding: const EdgeInsets.all(12.0),
                             child: Column(
                               children: <Widget>[
-                                Icon(Icons.home, color: Colors.lightBlue, size: 58,),
-                                Text('Lovina', style: TextStyle
+                                Icon(Icons.home, color: Colors.purple, size: 58,),
+                                Text('Banyuasri', style: TextStyle
                                   (color: Colors.black54,
                                     fontWeight: FontWeight.bold
                                 ),
@@ -167,7 +167,7 @@ class Konten extends StatelessWidget {
                           height: 100,
                           width: 100,
                           decoration: BoxDecoration(
-                            border: Border.all(color: Colors.blue),
+                            border: Border.all(color: Colors.black),
                             //color: Colors.green ,
                             borderRadius: BorderRadius.only(topRight: Radius.circular(20), topLeft: Radius.circular(20)),
 
@@ -178,8 +178,8 @@ class Konten extends StatelessWidget {
                             padding: const EdgeInsets.all(12.0),
                             child: Column(
                               children: <Widget>[
-                                Icon(Icons.music_note,color: Colors.lightBlue, size: 58,),
-                                Text('All Genre', style: TextStyle
+                                Icon(Icons.music_note,color: Colors.purple, size: 58,),
+                                Text('Koplo', style: TextStyle
                                   (color: Colors.black54,
                                     fontWeight: FontWeight.bold
                                 ),
@@ -193,7 +193,7 @@ class Konten extends StatelessWidget {
                           height: 100,
                           width: 100,
                           decoration: BoxDecoration(
-                            border: Border.all(color: Colors.blue),
+                            border: Border.all(color: Colors.black),
                             borderRadius: BorderRadius.only(topRight: Radius.circular(20), topLeft: Radius.circular(20)),
                           ),
 
@@ -201,7 +201,7 @@ class Konten extends StatelessWidget {
                             padding: const EdgeInsets.all(12.0),
                             child: Column(
                               children: <Widget>[
-                                Icon(Icons.school, color: Colors.lightBlue , size: 58,),
+                                Icon(Icons.school, color: Colors.purple , size: 58,),
                                 Text('Undiksha',style: TextStyle
                                   (color: Colors.black54,
                                     fontWeight: FontWeight.bold

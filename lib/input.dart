@@ -45,7 +45,7 @@ class _InputDataState extends State<InputData> {
         ],
         bottom: PreferredSize(
             child: Container(
-              color: Colors.red[500],
+              color: Colors.black,
               height: 4.0,
             ),
             preferredSize: null),
@@ -57,7 +57,7 @@ class _InputDataState extends State<InputData> {
           children: <Widget>[
             Container(
               padding: EdgeInsets.all(12),
-              color: Colors.pink,
+              color: Colors.purple,
               child: Column(
                 children: <Widget>[
                   Text(
@@ -68,7 +68,7 @@ class _InputDataState extends State<InputData> {
                         fontWeight: FontWeight.w500),
                   ),
                   Text(
-                    'Menghitung Bunga Pinjaman',
+                    'Bunga Pinjaman',
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 23.0,
@@ -176,7 +176,7 @@ class _InputDataState extends State<InputData> {
                   _sendDataTobmiResult(context);
                 },
                 padding: EdgeInsets.only(top: 5, bottom: 5),
-                color: Colors.pink,
+                color: Colors.purple,
                 child: Text(
                   'Hitung',
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
